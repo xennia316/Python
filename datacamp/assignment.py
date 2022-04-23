@@ -59,6 +59,7 @@ line3 = Q + questions[1] + '\n' + A + answers[0] + '\n'
 
 print(line1, line2, line3)
 
+print('This is bad for me: ', 'lol')
 
 #Numbers
 seconds = 60
