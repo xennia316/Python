@@ -56,3 +56,19 @@ print(marxes)
 # Duplicating a lists elements
 ['blah'] * 3
 #['blah', 'blah', 'blah']
+
+# Combine Lists by Using extend() or +
+marxes = ['Groucho', 'Chico', 'Harpo', 'Zeppo']
+others = ['Gummo', 'Karl']
+marxes.extend(others)
+
+print(marxes)
+# ['Groucho', 'Chico', 'Harpo', 'Zeppo', 'Gummo', 'Karl']
+
+# Alternatively, you can use + or +=:
+marxes = ['Groucho', 'Chico', 'Harpo', 'Zeppo']
+others = ['Gummo', 'Karl']
+marxes += others
+
+print(marxes)
+#['Groucho', 'Chico', 'Harpo', 'Zeppo', 'Gummo', 'Karl']
