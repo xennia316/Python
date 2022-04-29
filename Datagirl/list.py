@@ -115,3 +115,8 @@ marxes.index('Chico')
 # If the value is in the list more than once, only the offset of the first one is returned:
 simpsons = ['Lisa', 'Bart', 'Marge', 'Homer', 'Bart']
 print(simpsons.index('Bart'))
+
+# To count how many times a particular value occurs in a list, use count():
+
+marxes = ['Groucho', 'Chico', 'Harpo']
+marxes.count('Harpo')
