@@ -52,3 +52,7 @@ marxes.append('Zepppo')
 # Inserting st any offset position
 marxes.insert(2, 'Gummo')
 print(marxes)
+
+# Duplicating a lists elements
+['blah'] * 3
+#['blah', 'blah', 'blah']
