@@ -42,9 +42,9 @@ print(marxes[0:2])
 print(marxes[::2])
 print(marxes[::-2])
 
-# reversing a list
+# Reversing a list
 
-marxes.reverse() #reverses but returns nothing
+marxes.reverse() #Reverses but returns nothing
 
 # Appending elements to the end of a list
 marxes.append('Zepppo')
@@ -84,3 +84,25 @@ numbers = [1, 2, 3, 4]
 numbers[1:3] = [8, 9]
 
 print(numbers)
+
+# Deleting with del
+
+del marxes [-1]
+# The previous line will delete Karl
+
+# Deletion could also be done with remove()
+
+marxes.remove('Groucho') #This will equally delete Groucho from the list
+# The above method is suitable when the exact index is not known
+
+# Deleting with pop and offset position
+# Poping with an offset returns the item at that offset
+
+marxes = ['Groucho', 'Chico', 'Harpo', 'Zeppo']
+marxes.pop()
+#  returns 'Zeppo' because pop has a default offsset of -1
+print(marxes)
+
+marxes.pop(1)
+'Chico'
+print(marxes)
