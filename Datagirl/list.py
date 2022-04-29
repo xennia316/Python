@@ -106,3 +106,12 @@ print(marxes)
 marxes.pop(1)
 'Chico'
 print(marxes)
+
+# If you want to know the offset of an item in a list by its value, use index():
+marxes = ['Groucho', 'Chico', 'Harpo', 'Zeppo']
+marxes.index('Chico')
+# The above line returns 1
+
+# If the value is in the list more than once, only the offset of the first one is returned:
+simpsons = ['Lisa', 'Bart', 'Marge', 'Homer', 'Bart']
+print(simpsons.index('Bart'))
