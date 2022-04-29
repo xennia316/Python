@@ -35,3 +35,13 @@ marxes[-2]
  #'Chico'
 marxes[-3]
  #'Groucho'
+
+#  Slicing elements of a list
+
+print(marxes[0:2])
+print(marxes[::2])
+print(marxes[::-2])
+
+# reversing a list
+
+marxes.reverse() #reverses but returns nothing
