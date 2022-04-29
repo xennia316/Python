@@ -48,3 +48,7 @@ marxes.reverse() #reverses but returns nothing
 
 # Appending elements to the end of a list
 marxes.append('Zepppo')
+
+# Inserting st any offset position
+marxes.insert(2, 'Gummo')
+print(marxes)
