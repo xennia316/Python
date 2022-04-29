@@ -17,3 +17,21 @@ talk_like_a_pirate_day.split('/')
 print(talk_like_a_pirate_day.split('/'))
 #['9', '19', '2019']
 
+#Get an Item by [ offset ]
+#As with strings, you can extract a single value from a list by specifying its offset:
+marxes = ['Groucho', 'Chico', 'Harpo']
+
+marxes[0]
+ #'Groucho'
+marxes[1]
+ #'Chico'
+marxes[2]
+ #'Harpo'
+
+#Again, as with strings, negative indexes count backward from the end:
+marxes[-1]
+ #'Harpo'
+marxes[-2]
+ #'Chico'
+marxes[-3]
+ #'Groucho'
