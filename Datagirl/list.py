@@ -75,3 +75,12 @@ print(marxes)
 
 # Changing the value at an offset position
 marxes[2] = 'Wanda'
+
+# Change Items with a Slice
+
+# The previous section showed how to get a sublist with a slice. You can also assign
+# values to a sublist with a slice:
+numbers = [1, 2, 3, 4]
+numbers[1:3] = [8, 9]
+
+print(numbers)
