@@ -45,3 +45,6 @@ print(marxes[::-2])
 # reversing a list
 
 marxes.reverse() #reverses but returns nothing
+
+# Appending elements to the end of a list
+marxes.append('Zepppo')
