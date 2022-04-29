@@ -72,3 +72,6 @@ marxes += others
 
 print(marxes)
 #['Groucho', 'Chico', 'Harpo', 'Zeppo', 'Gummo', 'Karl']
+
+# Changing the value at an offset position
+marxes[2] = 'Wanda'
