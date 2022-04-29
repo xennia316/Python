@@ -31,3 +31,12 @@ print(a < b) #true
 
 print(a > b) #false
 
+#Iterating with  for...in
+
+words = 'fresh', 'fish'
+
+for word in words:
+    print(word)
+
+# Modifying a tuple is somehow impossible since tuples are immutable.
+# Other methods could be adopted such as adding (+) etc
