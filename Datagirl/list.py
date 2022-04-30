@@ -118,5 +118,5 @@ print(simpsons.index('Bart'))
 
 # To count how many times a particular value occurs in a list, use count():
 
-marxes = ['Groucho', 'Chico', 'Harpo']
+marxes = ['Groucho', 'Chico', 'Harpo', 'Harpo']
 marxes.count('Harpo')
