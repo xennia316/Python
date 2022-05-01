@@ -244,3 +244,10 @@ for newCheese in cheeses:
         break
     else:
         print(newCheese)
+
+# Iterating with zip() and dict()
+
+english = ['Monday', 'Tuesday', 'Wednesday']
+spanish = ['lun', 'Martes', 'Mierces']
+
+dict(zip(english,spanish))
