@@ -188,3 +188,12 @@ print(b)  # [1, 2, 3]
 b[0] = 'Copied version'
 print(a) #[1, 2, 3]
 
+# List method for copying list
+
+c = list(a)
+
+print(a) # [1, 2, 3]
+print(c)  # [1, 2, 3]
+
+c[0] = 'New copied version'
+print(a) #[1, 2, 3]
