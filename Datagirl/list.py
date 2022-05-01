@@ -237,3 +237,10 @@ cheeses = ['hey', 'I\'m', 'cheesey']
 
 for cheese in cheeses:
     print(cheese)
+
+for newCheese in cheeses:
+    if newCheese.startswith('c'):
+        print("I cannot eat anything that starts with 'g'")
+        break
+    else:
+        print(newCheese)
