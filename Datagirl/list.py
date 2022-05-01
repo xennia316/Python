@@ -156,5 +156,10 @@ sorted(marxes) #Also sorts lists in alphabetical order or ascending order for st
 
 # Reversing the sorting order
 
-marxes.sort(reverse=true)
+marxes.sort(reverse = True)
 print(marxes)
+
+# Finding list length
+
+print(len(marxes))
+
