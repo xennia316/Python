@@ -220,3 +220,11 @@ import copy
 a = [1, 2[8, 9]]
 
 b = copy.deepcopy(a)
+
+# Comparing lists. You can directly compare two lists with the comparison methods like ==, < , > etc
+
+a = [2, 3, 4]
+b = [ 1, 2, 3]
+
+a == b 
+# Returns false
