@@ -140,3 +140,7 @@ seperated = joined.split(seperator)
 print(seperated)
 
 print(seperated == joined)
+
+# Sorting lists with sort()
+print(marxes.sort())
+# Sorts lists in alphabetic order by default and numbers in ascending order
