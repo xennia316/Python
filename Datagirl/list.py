@@ -176,3 +176,15 @@ a[0] = 'I changed'
 print(b) # ['I changed', 2, 3]
 
 # Both a and b are pointing to thesame object location in memory
+
+# Copying a list
+
+a = [1, 2, 3]
+b = a.copy()
+
+print(a) # [1, 2, 3]
+print(b)  # [1, 2, 3]
+
+b[0] = 'Copied version'
+print(a) #[1, 2, 3]
+
