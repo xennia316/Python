@@ -207,3 +207,9 @@ print(d)  # [1, 2, 3]
 
 d[0] = 'Newest copied version'
 print(a) #[1, 2, 3]
+
+#********************************************************************************************************************************************
+
+# Copying with the copy, list() and slice method do not alter the original list whereas the direct assignment method alters the original list
+
+#********************************************************************************************************************************************
