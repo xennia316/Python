@@ -120,3 +120,9 @@ print(simpsons.index('Bart'))
 
 marxes = ['Groucho', 'Chico', 'Harpo', 'Harpo']
 marxes.count('Harpo')
+
+# Convert a list to a string with 'join'
+
+' '.join(marxes)
+# Returns 'Groucho Chico Harpo Harpo'
+
