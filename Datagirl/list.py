@@ -230,3 +230,10 @@ a == b
 # Returns false
 
 a <= b #Returns true
+
+# Looping through lists
+
+cheeses = ['hey', 'I\'m', 'cheesey']
+
+for cheese in cheeses:
+    print(cheese)
