@@ -144,3 +144,7 @@ print(seperated == joined)
 # Sorting lists with sort()
 print(marxes.sort())
 # Sorts lists in alphabetic order by default and numbers in ascending order
+
+sorted(marxes) #Also sorts lists in alphabetical order or ascending order for strings and numbers respectively.
+
+
