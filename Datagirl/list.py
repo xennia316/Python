@@ -1,4 +1,7 @@
 # Create with []
+from ntpath import join
+
+
 empty_list = []
 week_days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 randomness = ["Punxsatawney", {"groundhog": "Phil"}, "Feb. 2"]
@@ -126,3 +129,14 @@ marxes.count('Harpo')
 ' '.join(marxes)
 # Returns 'Groucho Chico Harpo Harpo'
 
+# Join is the opposite of split
+seperator = '*'
+friends = ['Sally', 'Edwin', 'Sonia', 'Acha']
+joined = seperator.join(friends)
+
+print(joined)
+
+seperated = joined.split(seperator)
+print(seperated)
+
+print(seperated == joined)
