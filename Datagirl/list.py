@@ -197,3 +197,13 @@ print(c)  # [1, 2, 3]
 
 c[0] = 'New copied version'
 print(a) #[1, 2, 3]
+
+# Copying with slice method
+
+d = a[:]
+
+print(a) # [1, 2, 3]
+print(d)  # [1, 2, 3]
+
+d[0] = 'Newest copied version'
+print(a) #[1, 2, 3]
