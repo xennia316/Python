@@ -228,3 +228,5 @@ b = [ 1, 2, 3]
 
 a == b 
 # Returns false
+
+a <= b #Returns true
