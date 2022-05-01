@@ -150,5 +150,6 @@ sorted(marxes) #Also sorts lists in alphabetical order or ascending order for st
 # *******************************************************************************************
 
 # Sorted returns the  sorted list but sort does not
+# Sorted does not change the original list but sort does
 
 # *******************************************************************************************
