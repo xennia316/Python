@@ -153,3 +153,8 @@ sorted(marxes) #Also sorts lists in alphabetical order or ascending order for st
 # Sorted does not change the original list but sort does
 
 # *******************************************************************************************
+
+# Reversing the sorting order
+
+marxes.sort(reverse=true)
+print(marxes)
