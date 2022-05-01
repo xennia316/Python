@@ -260,3 +260,11 @@ number_lists.append(2)
 number_lists.append(3)
 
 print(number_lists) #[1, 2, 3]
+
+# Or
+
+number_lists= []
+
+for number in range(1, 3):
+    number_lists.append(number)
+
