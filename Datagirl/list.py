@@ -251,3 +251,12 @@ english = ['Monday', 'Tuesday', 'Wednesday']
 spanish = ['lun', 'Martes', 'Mierces']
 
 dict(zip(english,spanish))
+
+# Creating lists with comprehension
+
+number_lists = []
+number_lists.append(1)
+number_lists.append(2)
+number_lists.append(3)
+
+print(number_lists) #[1, 2, 3]
