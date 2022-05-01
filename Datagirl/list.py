@@ -163,3 +163,16 @@ print(marxes)
 
 print(len(marxes))
 
+# Assign with '='
+
+a = [1 , 2, 3]
+print(a) # [1, 2, 3]
+
+b = a
+print(b) #[1, 2, 3]
+
+a[0] = 'I changed'
+
+print(b) # ['I changed', 2, 3]
+
+# Both a and b are pointing to thesame object location in memory
