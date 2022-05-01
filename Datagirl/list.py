@@ -147,4 +147,8 @@ print(marxes.sort())
 
 sorted(marxes) #Also sorts lists in alphabetical order or ascending order for strings and numbers respectively.
 
+# *******************************************************************************************
 
+# Sorted returns the  sorted list but sort does not
+
+# *******************************************************************************************
