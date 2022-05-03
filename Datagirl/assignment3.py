@@ -13,6 +13,6 @@ things = ["mozarella", "cinderella", "salmonella"]
 person = things[1].capitalize()
 print(person)
 
+# Set the cheesy element to uppercase and print the list again
 things[0].upper()
-
 print(things)
