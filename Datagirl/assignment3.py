@@ -1,4 +1,7 @@
 # List of next five years after birth year
+from audioop import reverse
+
+
 years_list = [2003, 2004, 2005, 2006, 2007, 2008]
 
 # Find the year with your third birthday
@@ -24,3 +27,12 @@ print(things)
 
 # Create a list called surprise
 surprise = [ 'Groucho', 'Chico', 'Harpo']
+
+# Lowercase the last element of the surorise list
+surprise[-1].lower()
+
+# Reverse the last elemnt of the surprise list
+newLast = reverse(surprise[-1])
+
+# And then capitalize the above result
+newLast.capitalize()
