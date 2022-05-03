@@ -43,7 +43,7 @@ marxes[-3]
 
 print(marxes[0:2])
 print(marxes[::2])
-print(marxes[::-2])
+print(marxes[::-2]) #slice from start to end with 2 place precision to the left
 
 # Reversing a list
 
