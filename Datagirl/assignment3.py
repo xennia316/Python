@@ -12,3 +12,7 @@ things = ["mozarella", "cinderella", "salmonella"]
 
 person = things[1].capitalize()
 print(person)
+
+things[0].upper()
+
+print(things)
