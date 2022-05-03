@@ -7,5 +7,6 @@ print(years_list[3])
 # In what year were you the oldest?
 print(years_list[-1])
 
-things = ["mozarella", "cinderella", "salmonella"]
+# Create a list with the following ...
+things = ["mozarella", "cinderella", "salmonella"] 
 
