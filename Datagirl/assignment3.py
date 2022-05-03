@@ -10,3 +10,5 @@ print(years_list[-1])
 # Create a list with the following ...
 things = ["mozarella", "cinderella", "salmonella"] 
 
+person = things[1].capitalize()
+print(person)
