@@ -10,9 +10,14 @@ print(years_list[-1])
 # Create a list with the following ...
 things = ["mozarella", "cinderella", "salmonella"] 
 
+# Capitalize the element that refers to a person
 person = things[1].capitalize()
 print(person)
 
 # Set the cheesy element to uppercase and print the list again
 things[0].upper()
+print(things)
+
+# Delete the disease from things and print the list one more time
+del things[-1]
 print(things)
