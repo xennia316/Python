@@ -21,3 +21,6 @@ print(things)
 # Delete the disease from things and print the list one more time
 del things[-1]
 print(things)
+
+# Create a list called surprise
+surprise = [ 'Groucho', 'Chico', 'Harpo']
