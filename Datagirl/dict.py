@@ -13,3 +13,16 @@ print(acme_customer)
 
 lol = [['a', 'b'], ['c', 'd'], ['e', 'f']]
 print(dict(lol))
+
+pythons = {
+    'Chapman': 'Graham',
+    'Cleese': 'John',
+    'Idle': 'Eric',
+    'Jones': 'Terry',
+    'Palin': 'Michael',
+}
+
+print(pythons)
+
+pythons['Gilliam'] = 'Gerry'
+print(pythons)
