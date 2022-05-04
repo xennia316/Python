@@ -31,3 +31,5 @@ pythons['Gilliam'] = 'Terry'
 print(pythons)
 
 print('Groucho' in pythons)
+
+print(pythons.get('Cleese'))
