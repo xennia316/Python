@@ -26,3 +26,6 @@ print(pythons)
 
 pythons['Gilliam'] = 'Gerry'
 print(pythons)
+
+pythons['Gilliam'] = 'Terry'
+print(pythons)
