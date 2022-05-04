@@ -10,3 +10,6 @@ bierce = {
 acme_customer = dict(first="Wile", second="E", last="Coyote")
 
 print(acme_customer)
+
+lol = [['a', 'b'], ['c', 'd'], ['e', 'f']]
+print(dict(lol))
