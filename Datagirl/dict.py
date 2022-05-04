@@ -29,3 +29,5 @@ print(pythons)
 
 pythons['Gilliam'] = 'Terry'
 print(pythons)
+
+print('Groucho' in pythons)
