@@ -40,3 +40,5 @@ print(signals.keys())
 print(list(signals.keys()))
 
 print(list(signals.values()))
+
+print(list(signals.items()))
