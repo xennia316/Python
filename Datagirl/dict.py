@@ -65,3 +65,9 @@ a = { 1:1, 2:2, 3:3}
 b = { 1:1, 2:2, 3:3}
 
 a == b
+
+accusation = {'room': 'ballroom', 'weapon': 'lead pipe', 'person': 'Col. Mustard'}
+
+for card in accusation.keys(): 
+    print(card)
+
