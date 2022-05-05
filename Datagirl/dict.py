@@ -71,3 +71,5 @@ accusation = {'room': 'ballroom', 'weapon': 'lead pipe', 'person': 'Col. Mustard
 for card in accusation.keys(): 
     print(card)
 
+for value in accusation.values():
+    print(value)
