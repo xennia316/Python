@@ -42,3 +42,12 @@ print(list(signals.keys()))
 print(list(signals.values()))
 
 print(list(signals.items()))
+
+
+signals = { 'green': 'go', 'yelllow': 'go faster', 'red': ['stop', 'smile']}
+signals_copy = signals.copy()
+print(signals_copy)
+
+signals['red'][1] = 'sweat'
+print(signals)
+print(signals_copy)
