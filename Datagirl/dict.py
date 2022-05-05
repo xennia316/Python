@@ -76,3 +76,6 @@ for value in accusation.values():
 
 for item in accusation.items():
     print(item)
+
+for card, content in accusation.items():
+    print('Card', card, 'has content: ', content)
