@@ -73,3 +73,6 @@ for card in accusation.keys():
 
 for value in accusation.values():
     print(value)
+
+for item in accusation.items():
+    print(item)
