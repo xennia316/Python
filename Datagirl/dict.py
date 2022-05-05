@@ -51,3 +51,12 @@ print(signals_copy)
 signals['red'][1] = 'sweat'
 print(signals)
 print(signals_copy)
+
+import copy
+signals = { 'green': 'go', 'yelllow': 'go faster', 'red': ['stop', 'smile']}
+signals_copy = copy.deepcopy(signals)
+print(signals_copy)
+
+signals['red'][1] = 'sweat'
+print(signals)
+print(signals_copy)
