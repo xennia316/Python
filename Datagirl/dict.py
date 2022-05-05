@@ -60,3 +60,8 @@ print(signals_copy)
 signals['red'][1] = 'sweat'
 print(signals)
 print(signals_copy)
+
+a = { 1:1, 2:2, 3:3}
+b = { 1:1, 2:2, 3:3}
+
+a == b
