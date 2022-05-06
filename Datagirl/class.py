@@ -2,8 +2,16 @@ from ast import Pass
 from urllib.parse import ParseResultBytes
 
 
-class cat():
+class Cat():
     Pass
 
-a_cat =  cat()
-another_cat = cat()
+a_cat =  Cat()
+another_cat = Cat()
+
+print(type(Cat))
+print(type(1))
+
+a_cat.name = "Sonia"
+
+print(a_cat.name)
+print(a_cat)
