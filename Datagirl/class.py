@@ -36,3 +36,20 @@ class Yoga(Car):
 
 a_yoga = Yoga()
 a_yoga.exclaim()
+
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+
+class Medical_doctor(Person):
+    def __init__(self, name):
+        self.name = name
+
+    def say(self):
+        print(self.name + " is a doctor")
+
+
+Edwin = Medical_doctor()
+print(Edwin.name)
