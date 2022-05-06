@@ -14,4 +14,11 @@ print(type(1))
 a_cat.name = "Sonia"
 
 print(a_cat.name)
-print(a_cat)
+
+class NewCat():
+    def __init__(self, name):
+        self.name = name
+
+a_NewCat = NewCat("Edwin")
+
+print(a_NewCat.name)
