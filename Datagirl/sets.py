@@ -32,3 +32,9 @@ print(s)
 # Deleting from a set by value
 s.remove(2)
 print(s)
+
+# Iterating through a set with for...in
+
+furniture = set(('sofa', 'ottoman', 'table'))
+for piece in furniture:
+    print(piece)
