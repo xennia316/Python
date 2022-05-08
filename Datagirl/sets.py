@@ -11,3 +11,6 @@ print(set('letters'))
 
 # Converting a list to a set
 print(set(['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon']))
+
+# Converting a tuple to a set
+print(set(('Ummagumma', 'Echoes', 'Atom Heart Mother')))
