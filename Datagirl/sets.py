@@ -57,3 +57,8 @@ for name, contents in drinks.items():
 
     elif 'vermouth' in contents:
         print(f'vermouth in', name)
+
+# Intersection &
+for name, contents in drinks.items():
+    if contents & {'vermouth', 'orange juice'}:
+        print(name)
