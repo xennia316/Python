@@ -28,3 +28,7 @@ print(s)
 
 s.add(4)
 print(s)
+
+# Deleting from a set by value
+s.remove(2)
+print(s)
