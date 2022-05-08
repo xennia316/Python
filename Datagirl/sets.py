@@ -14,3 +14,7 @@ print(set(['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon']))
 
 # Converting a tuple to a set
 print(set(('Ummagumma', 'Echoes', 'Atom Heart Mother')))
+
+# When you give set() a dictionary, it uses only the keys:
+
+print(set({'apple': 'red', 'orange': 'orange', 'cherry': 'red'}))
