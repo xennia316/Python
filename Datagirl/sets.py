@@ -38,3 +38,22 @@ print(s)
 furniture = set(('sofa', 'ottoman', 'table'))
 for piece in furniture:
     print(piece)
+
+# Finding values in a set
+
+drinks = {
+    'martini': {'vodka', 'vermouth'},
+    'black russian': {'vodka', 'kahlua'},
+    'white russian': {'cream', 'kahlua', 'vodka'},
+    'manhattan': {'rye', 'vermouth', 'bitters'},
+    'screwdriver': {'orange juice', 'vodka'}
+}
+
+# Which drinks contain vodka?
+
+for name, contents in drinks.items():
+    if 'vodka' in contents:
+        print(name)
+
+    elif 'vermouth' in contents:
+        print(f'vermouth in', name)
