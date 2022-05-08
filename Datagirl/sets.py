@@ -8,3 +8,6 @@ print(odd_numbers)
 
 # Creating a set from a string .... It counts only one occurrence of a character
 print(set('letters'))
+
+# Converting a list to a set
+print(set(['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon']))
