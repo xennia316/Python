@@ -21,3 +21,10 @@ print(set({'apple': 'red', 'orange': 'orange', 'cherry': 'red'}))
 # Set length with len()
 reindeer = set(['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon'])
 print(len(reindeer))
+
+# Throw another item into a set with the add() method:
+s = set((1, 2, 3))
+print(s)
+
+s.add(4)
+print(s)
