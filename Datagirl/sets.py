@@ -16,5 +16,8 @@ print(set(['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon']))
 print(set(('Ummagumma', 'Echoes', 'Atom Heart Mother')))
 
 # When you give set() a dictionary, it uses only the keys:
-
 print(set({'apple': 'red', 'orange': 'orange', 'cherry': 'red'}))
+
+# Set length with len()
+reindeer = set(['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon'])
+print(len(reindeer))
