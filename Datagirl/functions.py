@@ -89,3 +89,12 @@ print(menu(entree='beef', dessert='bagel', wine='bordeaux')
 
 # Mixture of position and keyword arguments
 print(menu('frontenac', dessert='flan', entree='fish'))
+
+# Default arguments
+
+
+def menu(wine, entree, dessert='pudding'):
+    return {'wine': wine, 'entree': entree, 'dessert': dessert}
+
+
+menu('chardonnay', 'chicken')
