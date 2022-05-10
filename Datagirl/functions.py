@@ -73,3 +73,12 @@ def whatis(thing):
 whatis('Nice')
 whatis(None)
 whatis(True)
+
+# Positional Arguments
+
+
+def menu(wine, entree, dessert):
+    return {'wine': wine, 'entree': entree, 'dessert': dessert}
+
+
+print(menu('chardonnay', 'chicken', 'cake'))
