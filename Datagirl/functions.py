@@ -86,3 +86,6 @@ print(menu('chardonnay', 'chicken', 'cake'))
 # Keyword Arguments
 print(menu(entree='beef', dessert='bagel', wine='bordeaux')
       )
+
+# Mixture of position and keyword arguments
+print(menu('frontenac', dessert='flan', entree='fish'))
