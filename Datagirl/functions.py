@@ -15,6 +15,8 @@ def make_a_sound():
 
 make_a_sound()
 
+# Function with no parameter and a return value
+
 
 def agree():
     return True
@@ -24,3 +26,12 @@ if agree():
     print('Splendid')
 else:
     print('That was unexpected!')
+
+# Function with parameters
+
+
+def echo(anything):
+    return anything + ' ' + anything
+
+
+print(echo('Sally'))
