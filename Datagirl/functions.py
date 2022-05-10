@@ -14,3 +14,13 @@ def make_a_sound():
 
 
 make_a_sound()
+
+
+def agree():
+    return True
+
+
+if agree():
+    print('Splendid')
+else:
+    print('That was unexpected!')
