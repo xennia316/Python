@@ -35,3 +35,41 @@ def echo(anything):
 
 
 print(echo('Sally'))
+
+
+def commentary(color):
+    if color == 'red':
+        return 'It\'s a tomato.'
+    elif color == 'green':
+        return 'It\'s a green pepper'
+    elif color == 'bee purple':
+        return 'I don\'t know what it is, but bees can definitely see it'
+    else:
+        return 'I\'ve never heard of the color ' + color + '.'
+
+
+print(commentary('white'))
+
+"""None is a special Python value that holds a place when there is nothing to say. It is
+not the same as the boolean value False, although it looks false when evaluated as
+a boolean. Here’s an example:"""
+
+thing = None
+if thing:
+    print("I am something")
+else:
+    print("I am nothing")
+
+
+def whatis(thing):
+    if thing is None:
+        print(thing, 'is None')
+    elif thing:
+        print(thing, 'is True')
+    else:
+        print(thing, 'is False')
+
+
+whatis('Nice')
+whatis(None)
+whatis(True)
