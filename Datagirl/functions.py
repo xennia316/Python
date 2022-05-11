@@ -108,7 +108,7 @@ def print_args(*args):
     print('Positional tuple:', args)
 
 
-print(print_args(3, 2, 1, 'wait!', 'uh...'))
+print(print_args(3, 2, 1, 'wait!', 'uh  '))
 
 
 def print_more(required1, required2, *args):
@@ -193,3 +193,23 @@ def run_with_positional_args(func, *args):
 
 
 print(run_with_positional_args(sum_args, 1, 2, 3, 4))
+
+# Inner functions
+
+
+def outer(a, b):
+    def inner(c, d):
+        return c + d
+    return inner(a, b)
+
+
+print(outer(4, 7))
+
+
+def knights(saying):
+    def inner(quote):
+        return "We are the knights who say: '%s'" % quote
+    return inner(saying)
+
+
+print(knights('Ni!'))
