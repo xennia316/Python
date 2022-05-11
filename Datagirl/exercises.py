@@ -119,3 +119,14 @@ def checker(params):
 
 
 checker(sample_list)
+
+print('\n')
+print('______________________________________________')
+print('Exercise 9')
+print('______________________________________________')
+print('\n')
+
+
+def cloner(params):
+    newList = params.copy()
+    return newList
