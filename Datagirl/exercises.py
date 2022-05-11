@@ -94,3 +94,12 @@ def second(arg):
 
 (sample_list.sort(key=second))
 print(sample_list)
+print('\n')
+print('______________________________________________')
+print('Exercise 7')
+print('______________________________________________')
+print('\n')
+
+my_list = [1, 2, 3, 4, 1, 2, 5]
+new_list = dict.fromkeys(my_list)
+print(list(new_list))
