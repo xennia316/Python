@@ -210,3 +210,12 @@ def remover(list):
 
 print("New list after removing all even numbers: ")
 print(remover(my_list))
+print('\n')
+print('______________________________________________')
+print('Exercise 14')
+print('______________________________________________')
+print('\n')
+
+
+(random.shuffle(my_list))
+print(my_list)
