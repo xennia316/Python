@@ -32,3 +32,16 @@ def calculation(arg1, arg2):
 
 
 print(calculation(20, 5))
+
+print('________________________')
+print('Exercise 3')
+print('________________________')
+
+
+def show_employee(name, salary=9000):
+    print('Name: ', name + '\n' + 'Salary: ', salary)
+    print('\n')
+
+
+show_employee("Ben", 12000)
+show_employee("Jessa")
