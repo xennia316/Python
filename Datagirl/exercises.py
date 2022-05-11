@@ -130,3 +130,24 @@ print('\n')
 def cloner(params):
     newList = params.copy()
     return newList
+
+
+print('\n')
+print('______________________________________________')
+print('Exercise 10')
+print('______________________________________________')
+print('\n')
+
+words = ['hello', 'there', 'me', 'you']
+
+
+def inside(params):
+    n = 3
+    final_list = []
+    for word in params:
+        if(len(word) > n):
+            final_list.append(word)
+    return final_list
+
+
+print(inside(words))
