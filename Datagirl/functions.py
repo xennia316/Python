@@ -158,3 +158,27 @@ print('\n')
 mangle(outside)
 print('\n')
 print(outside)
+
+
+# Functions as first class citizens
+def answer():
+    print(42)
+
+
+def run_something(func):
+    func()
+
+
+run_something(answer)
+print(type(run_something))
+
+
+def add_args(arg1, arg2):
+    print(arg1 + arg2)
+
+
+def run_something_with_args(func, arg1, arg2):
+    func(arg1, arg2)
+
+
+run_something_with_args(add_args, 5, 9)
