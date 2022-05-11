@@ -57,3 +57,40 @@ def least(arg):
 
 
 print(least(listing))
+
+print('\n')
+print('______________________________________________')
+print('Exercise 5')
+print('______________________________________________')
+print('\n')
+
+Sample_List = ['abc', 'xyz', 'aba', '1221']
+
+
+def counter(args):
+    counting = 0
+    for arg in args:
+        if len(arg) > 2:
+            # if type(arg) == 'String':
+            if arg[0] == arg[-1]:
+                counting += 1
+    return counting
+
+
+print(counter(Sample_List))
+
+print('\n')
+print('______________________________________________')
+print('Exercise 6')
+print('______________________________________________')
+print('\n')
+
+sample_list = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+
+def second(arg):
+    return arg[1]
+
+
+(sample_list.sort(key=second))
+print(sample_list)
