@@ -219,3 +219,24 @@ print('\n')
 
 (random.shuffle(my_list))
 print(my_list)
+
+print('\n')
+print('______________________________________________')
+print('Exercise 15')
+print('______________________________________________')
+print('\n')
+
+numbers = [1, 2, 3, 4, 5]
+
+
+def swapper(list):
+    first = list[0]
+    last = list[-1]
+
+    list[-1] = first
+    list[0] = last
+
+    return list
+
+
+print(swapper(numbers))
