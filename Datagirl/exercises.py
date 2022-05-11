@@ -151,3 +151,23 @@ def inside(params):
 
 
 print(inside(words))
+print('\n')
+print('______________________________________________')
+print('Exercise 11')
+print('______________________________________________')
+print('\n')
+
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+list2 = [0, 2, 4, 6, 8]
+
+
+def common_elements(list1, list2):
+    result = []
+    for element in list1:
+        if element in list2:
+            result.append(element)
+    print(result)
+    return True
+
+
+print(common_elements(list1, list2))
