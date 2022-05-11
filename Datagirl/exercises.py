@@ -103,3 +103,19 @@ print('\n')
 my_list = [1, 2, 3, 4, 1, 2, 5]
 new_list = dict.fromkeys(my_list)
 print(list(new_list))
+
+print('\n')
+print('______________________________________________')
+print('Exercise 8')
+print('______________________________________________')
+print('\n')
+
+
+def checker(params):
+    if(len(params) == 0):
+        print("I am an empty list")
+    else:
+        print("Hello from a packed with %f elements", float(len(params)))
+
+
+checker(sample_list)
