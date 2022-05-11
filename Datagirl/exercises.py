@@ -171,3 +171,24 @@ def common_elements(list1, list2):
 
 
 print(common_elements(list1, list2))
+
+print('\n')
+print('______________________________________________')
+print('Exercise 12')
+print('______________________________________________')
+print('\n')
+
+
+def deleter(params):
+    first = params[0]
+    second = params[4]
+    third = params[5]
+
+    params.remove(first)
+    params.remove(second)
+    params.remove(third)
+
+    return params
+
+
+print(deleter(my_list))
