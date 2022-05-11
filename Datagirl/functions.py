@@ -234,3 +234,6 @@ print((b))
 
 print((a()))
 print((b()))
+
+# Generators
+print(sum(range(1, 100)))
