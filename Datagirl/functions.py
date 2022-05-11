@@ -118,3 +118,12 @@ def print_more(required1, required2, *args):
 
 
 (print_more('cap', 'gloves', 'scarf',  'monocle', 'mustache wax'))
+
+# Explode/Gather Keyword Arguments with **
+
+
+def print_kwargs(**kwargs):
+    print('Keyword arguments:', kwargs)
+
+
+print_kwargs(wine='merlot', entree='mutton', dessert='macaroon')
