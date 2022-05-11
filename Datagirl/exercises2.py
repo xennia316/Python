@@ -19,3 +19,16 @@ def func1(*args):
 
 
 func1(1, 2, 3, 4, 5, 'Nyenti')
+
+print('________________________')
+print('Exercise 3')
+print('________________________')
+
+
+def calculation(arg1, arg2):
+    summed = arg1 + arg2
+    reduced = arg1 - arg2
+    return summed, reduced
+
+
+print(calculation(20, 5))
