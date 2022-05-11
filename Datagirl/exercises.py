@@ -23,3 +23,21 @@ def multiplier(lists):
 
 
 print(multiplier(a_list))
+print('\n')
+print('______________________________________________')
+print('Exercise 3')
+print('______________________________________________')
+print('\n')
+
+listing = [2, 3, 1, 20, 0]
+
+
+def greatest(arg):
+    result = 0
+    for num in arg:
+        if(num > result):
+            result = num
+    return result
+
+
+print(greatest(listing))
