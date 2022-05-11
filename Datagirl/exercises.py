@@ -192,3 +192,21 @@ def deleter(params):
 
 
 print(deleter(my_list))
+
+
+print('\n')
+print('______________________________________________')
+print('Exercise 13')
+print('______________________________________________')
+print('\n')
+
+
+def remover(list):
+    for elem in list:
+        if elem % 2 == 0:
+            list.remove(elem)
+    return list
+
+
+print("New list after removing all even numbers: ")
+print(remover(my_list))
