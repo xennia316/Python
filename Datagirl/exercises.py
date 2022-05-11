@@ -240,3 +240,19 @@ def swapper(list):
 
 
 print(swapper(numbers))
+print('\n')
+print('______________________________________________')
+print('Exercise 16')
+print('______________________________________________')
+print('\n')
+
+
+def swap(list, pos1, pos2):
+    temp = list[pos1]
+    list[pos1] = list[pos2]
+    list[pos2] = temp
+
+
+to_swap = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+(swap(to_swap, pos1=2, pos2=4))
+print(to_swap)
