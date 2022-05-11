@@ -143,3 +143,18 @@ print('*************************')
 print_data(data, start=3)
 print('*************************')
 print_data(data, end=2)
+
+# Mutable and immutable arguments
+outside = ['one', 'fine', 'day']
+
+
+def mangle(arg):
+    arg[1] = 'terrible!'
+
+
+print('\n')
+print(outside)
+print('\n')
+mangle(outside)
+print('\n')
+print(outside)
