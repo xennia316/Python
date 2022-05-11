@@ -41,3 +41,19 @@ def greatest(arg):
 
 
 print(greatest(listing))
+print('\n')
+print('______________________________________________')
+print('Exercise 4')
+print('______________________________________________')
+print('\n')
+
+
+def least(arg):
+    result = 0
+    for num in arg:
+        if(num < result):
+            result = num
+    return result
+
+
+print(least(listing))
