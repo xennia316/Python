@@ -246,6 +246,8 @@ print('Exercise 16')
 print('______________________________________________')
 print('\n')
 
+# Swapping positions
+
 
 def swap(list, pos1, pos2):
     temp = list[pos1]
