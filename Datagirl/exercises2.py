@@ -67,6 +67,8 @@ print('________________________')
 print('Exercise 6')
 print('________________________')
 
+# Recursively adding numbers from one to ten given a = 10
+
 
 def summer(a):
     if a <= 1:
