@@ -93,3 +93,9 @@ print(wruss.difference(bruss))
 print(a ^ b)
 print(a.symmetric_difference(b))
 print(bruss ^ wruss)
+
+# Checking if a set is the subset of another
+print(a <= b)
+print(a.issubset(b))
+print(bruss.issubset(wruss))
+print(wruss.issubset(bruss))
