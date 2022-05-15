@@ -62,3 +62,8 @@ for name, contents in drinks.items():
 for name, contents in drinks.items():
     if contents & {'vermouth', 'orange juice'}:
         print(name)
+
+# Rewriting the above...
+for name, contents in drinks.items():
+    if 'vodka' in contents and not contents & {'vermouth', 'cream'}:
+        print(name)
