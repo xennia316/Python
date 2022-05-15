@@ -83,3 +83,8 @@ print(bruss & wruss)  # Prints the common ingredients
 # The Union set
 print(a | b)
 print(a.union(b))
+
+# Finding the difference of two sets.
+print(a - b)
+print(a.difference(b))
+print(wruss.difference(bruss))
