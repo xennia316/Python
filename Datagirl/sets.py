@@ -133,3 +133,7 @@ stooges = ['Moe', 'Curly', 'Larry']
 
 tuple_of_lists = marxes, pythons, stooges
 print(tuple_of_lists)
+
+# A list of lists
+lists_of_lists = [marxes, pythons, stooges]
+print(lists_of_lists)
