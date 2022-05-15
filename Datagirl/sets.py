@@ -105,3 +105,9 @@ print(a < b)
 print(wruss < bruss)
 print(bruss < wruss)
 print(wruss < wruss)
+
+# A superset is the opposite of a subset
+
+print(a >= b)
+print(bruss.issuperset(wruss))
+print(wruss.issuperset(bruss))
