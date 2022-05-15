@@ -115,3 +115,7 @@ print(wruss.issuperset(bruss))
 # Proper superset
 print(a > b)
 print(bruss > wruss)
+
+# Set Comprehension
+a_set = {number for number in range(1, 10) if number % 3 == 1}
+print(a_set)
