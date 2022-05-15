@@ -71,8 +71,11 @@ for name, contents in drinks.items():
 bruss = drinks['black russian']
 wruss = drinks['white russian']
 
+# Intersection function
 a = {1, 2}
 b = {2, 3}
 
 print(a & b)
 print(a.intersection(b))
+
+print(bruss & wruss)  # Prints the common ingredients
