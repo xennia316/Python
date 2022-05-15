@@ -79,3 +79,7 @@ print(a & b)
 print(a.intersection(b))
 
 print(bruss & wruss)  # Prints the common ingredients
+
+# The Union set
+print(a | b)
+print(a.union(b))
