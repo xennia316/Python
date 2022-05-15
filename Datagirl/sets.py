@@ -88,3 +88,8 @@ print(a.union(b))
 print(a - b)
 print(a.difference(b))
 print(wruss.difference(bruss))
+
+# The exclusiveness refers to items found in one set and not the other BUT NEVER both
+print(a ^ b)
+print(a.symmetric_difference(b))
+print(bruss ^ wruss)
