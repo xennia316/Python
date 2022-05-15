@@ -119,3 +119,9 @@ print(bruss > wruss)
 # Set Comprehension
 a_set = {number for number in range(1, 10) if number % 3 == 1}
 print(a_set)
+
+# immutable or frozen sets ......that is, their arguments cannot be changed or altered
+fs = frozenset([3, 2, 1])
+print(fs)
+
+# fs.add(4)
