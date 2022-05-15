@@ -111,3 +111,7 @@ print(wruss < wruss)
 print(a >= b)
 print(bruss.issuperset(wruss))
 print(wruss.issuperset(bruss))
+
+# Proper superset
+print(a > b)
+print(bruss > wruss)
