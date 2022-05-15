@@ -125,3 +125,11 @@ fs = frozenset([3, 2, 1])
 print(fs)
 
 # fs.add(4)
+
+# Larger data structures
+marxes = ['Groucho', 'Chico', 'Harpo']
+pythons = ['Chapman', 'Cleese', 'Gilliams', 'Jones', 'Palin']
+stooges = ['Moe', 'Curly', 'Larry']
+
+tuple_of_lists = marxes, pythons, stooges
+print(tuple_of_lists)
