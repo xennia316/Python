@@ -99,3 +99,9 @@ print(a <= b)
 print(a.issubset(b))
 print(bruss.issubset(wruss))
 print(wruss.issubset(bruss))
+
+# Proper subsets have all the members of the first set or more
+print(a < b)
+print(wruss < bruss)
+print(bruss < wruss)
+print(wruss < wruss)
