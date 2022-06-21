@@ -1,5 +1,5 @@
-a = float(input('First: '))
-b = float(input('Second: '))
+a = float(input('First value: '))
+b = float(input('Second value: '))
 op = input('Operation(sum/sub/mul/div)')
 
 match op:
